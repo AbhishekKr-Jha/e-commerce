@@ -1,0 +1,120 @@
+/* ✅ DISPLAY */
+.hidden { display: none; }
+.block{display: block;}
+/* ✅ FLEXBOX */
+.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+
+.gap-20{gap: 20px;}
+.gap-60{gap: 60px;}
+
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+
+.items-start { align-items: flex-start; }
+.items-center { align-items: center; }
+.items-end { align-items: flex-end; }
+
+/* ✅ WIDTH & HEIGHT */
+.w-full { width: 100%; }
+.w-half { width: 50%; }
+.w-200 { width: 200%; }
+.w-max { width: max-content; }
+
+.h-full { height: 100%; }
+.h-screen { height: 100vh; }
+.h-max { height: max-content; }
+.h-min{
+    min-height: 70vh;
+}
+
+/* ✅ TEXT & FONT */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.font-bold { font-weight: bold; }
+.font-medium { font-weight: 500; }
+
+/* ✅ CURSOR & POINTER */
+.cursor-pointer { cursor: pointer; }
+
+/* ✅ BORDER */
+.border { border: 1px solid black; }
+.border-none { border: none; }
+
+.rounded-lg { border-radius: 10px; }
+.rounded-full { border-radius: 50%; }
+
+/* ✅ OUTLINE */
+.outline-none { outline: none; }
+
+.overflow-hidden{overflow: hidden;}
+.overflow-x-auto{overflow-x: auto;}
+
+
+
+
+/* ✅ MARGIN */
+.m-auto{
+    margin:auto
+}
+
+
+
+
+.bg-white{
+    background-color: white;
+    /* color: orange; */
+}
+
+.mt-5{margin-top: 5px;}
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+.mt-40{margin-top: 40px;}
+
+
+.pt-20{padding-top: 20px;}
+.pt-40{padding-top: 40px;}
+
+
+.pv-15{padding-top: ;}
+
+
+.bg-red{background-color: red;}
+.bg-green{background-color: green;}
+.bg-blue{background-color: blue;}
+
+
+
+
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+
+.top-5{top: 5px;}
+.top-10{top: 10px;}
+.top-25{top: 25px;}
+
+.right-15{right: 15px;}
+
+.left-15{left: 15px;}
+
+
+.text-white{color: white;}
+
+.pointer{cursor: pointer;}
+
+
+/* .leading-space{line-height:22px} */
+.text-xl{font-size: 24px;}
+
+
+.noWrap{white-space: nowrap;}
+.text-wrap{white-space: normal;}
